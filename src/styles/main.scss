@@ -1,11 +1,32 @@
+//* background color: #28333a;    (charcoal black)
+//* Heading color: #9fbaca;       (white blue)
+//* Text color: #b2cfcd;          (off white)
+//* box color: #475b63;           (Grey)
+
+
 * {
   margin:0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #929d8f;
+  // background-color: #19323c;
+  background-color: #28333a;
+  
 }
+
+//* NAVBAR
+
+.navbar {
+  background-color: #754043;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5em;
+}
+
+
+
+//* HERO
 
 .hero-container {
   display: flex;
@@ -23,8 +44,80 @@ body {
 
 h1 {
   font-size: 7rem;
+  color: #9fbaca;
 }
 
 .hero-subtitle {
   font-size: 4rem;
+  color: #b2cfcd;
 }
+
+
+//* ABOUT ME 
+
+.about-container {
+  height: 100vh;
+  width: 100vw;
+  padding: 30px 50px 30px 120px;
+  display: flex;
+}
+
+.aboutme-info-container {
+  width: 50%;
+  padding: 2em;
+  border: #b2cfcd solid 1px;
+  border-radius: 10%;
+  background-color: #475b63;
+  box-shadow: -1em 1.2em 15px rgba(0, 0, 0, 0.372);
+  
+}
+
+.aboutme-title {
+  font-size: 6em;
+  color: #9fbaca;
+  
+
+}
+
+.aboutme-subtitle {
+  font-size: 1.8em;
+  color: #b2cfcd;
+  padding-bottom: 0.4em;
+}
+
+.aboutme-paragraphs {
+  font-size: 1.05em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: justify;
+  color: #b2cfcd;
+}
+
+.interests {
+  margin-left: 10%;
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.interest-one {
+height: 33%;
+border-bottom: 2px #9fbaca solid;
+display: flex;
+justify-content: center;
+}
+
+.interest-two {
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  }
+
+  .interest-three {
+    height: 33%;
+    border-top: 2px #9fbaca solid;
+    display: flex;
+    justify-content: center;
+    }
