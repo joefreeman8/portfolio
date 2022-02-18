@@ -1,11 +1,17 @@
+import React from 'react'
+
 import snowboarder from '../assets/snowboarder3.png'
 import taz from '../assets/taz.png'
 import octopus from '../assets/octopus3.png'
 
 function About() {
+
+
+
+  
   return (
     <>
-      <div className="about-container">
+      <div className="about-container" id="about">
         <div className="aboutme-info-container">
           <h2 className="aboutme-title">Hi, I&apos;m Joe!</h2>
           <h6 className="aboutme-subtitle">A recent graduate of a Software Engineering Immersive by General Assembly.</h6>

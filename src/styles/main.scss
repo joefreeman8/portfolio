@@ -1,7 +1,9 @@
-//* background color: #28333a;    (charcoal black)
-//* Heading color: #9fbaca;       (white blue)
-//* Text color: #b2cfcd;          (off white)
-//* box color: #475b63;           (Grey)
+@import "~bootstrap/scss/bootstrap";
+
+$charcoalblack: #28333a;
+$whiteblue: #9fbaca; 
+$offwhite: #b2cfcd;
+$grey: #475b63;
 
 
 * {
@@ -10,15 +12,14 @@
 }
 
 body {
-  // background-color: #19323c;
-  background-color: #28333a;
+  background-color: $charcoalblack;
   
 }
 
-//* NAVBAR
+//************ NAVBAR ************
 
 .navbar {
-  background-color: #754043;
+  background-color: $grey;
   display: flex;
   justify-content: space-around;
   padding: 1.5em;
@@ -26,7 +27,7 @@ body {
 
 
 
-//* HERO
+//************ HERO ************
 
 .hero-container {
   display: flex;
@@ -43,17 +44,17 @@ body {
 }
 
 h1 {
-  font-size: 7rem;
-  color: #9fbaca;
+  font-size: 7em;
+  color: $whiteblue;
 }
 
 .hero-subtitle {
-  font-size: 4rem;
-  color: #b2cfcd;
+  font-size: 4em;
+  color: $offwhite;
 }
 
 
-//* ABOUT ME 
+//************ ABOUT ME ************
 
 .about-container {
   height: 100vh;
@@ -64,8 +65,9 @@ h1 {
 
 .aboutme-info-container {
   width: 50%;
+  height: 95%;
   padding: 2em;
-  border: #b2cfcd solid 1px;
+  border: $offwhite solid 1px;
   border-radius: 10%;
   background-color: #475b63;
   box-shadow: -1em 1.2em 15px rgba(0, 0, 0, 0.372);
@@ -74,7 +76,7 @@ h1 {
 
 .aboutme-title {
   font-size: 6em;
-  color: #9fbaca;
+  color: $whiteblue;
   
 
 }
@@ -90,7 +92,7 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: justify;
-  color: #b2cfcd;
+  color: $offwhite;
 }
 
 .interests {
@@ -104,7 +106,7 @@ h1 {
 
 .interest-one {
 height: 33%;
-border-bottom: 2px #9fbaca solid;
+border-bottom: 2px $whiteblue solid;
 display: flex;
 justify-content: center;
 }
@@ -117,7 +119,9 @@ justify-content: center;
 
   .interest-three {
     height: 33%;
-    border-top: 2px #9fbaca solid;
+    border-top: 2px $whiteblue solid;
     display: flex;
     justify-content: center;
     }
+
+
