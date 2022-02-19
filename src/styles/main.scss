@@ -1,9 +1,26 @@
 @import "~bootstrap/scss/bootstrap";
 
 $charcoalblack: #28333a;
-$whiteblue: #9fbaca; 
+$whiteblue: #8eafc2; 
 $offwhite: #b2cfcd;
 $grey: #475b63;
+
+$enable-negative-margins: true;
+
+.mt-n70 {margin-top: -7rem !important;}
+.mt-n65 {margin-top: -6.5rem !important;}
+.mt-n60 {margin-top: -6rem !important;}
+.mt-n55 {margin-top: -5.5rem !important;}
+.mt-n50 {margin-top: -5rem !important;}
+.mt-n45 {margin-top: -4.5rem !important;}
+.mt-n40 {margin-top: -4rem !important;}
+.mt-n35 {margin-top: -3.5rem !important;}
+.mt-n30 {margin-top: -3.0rem !important;}
+.mt-n25 {margin-top: -2.5rem !important;}
+.mt-n20 {margin-top: -2rem !important;}
+.mt-n15 {margin-top: -1.5rem !important;}
+.mt-n10 {margin-top: -1rem !important;}
+.mt-n05 {margin-top: -0.5rem !important;}
 
 
 * {
@@ -12,9 +29,84 @@ $grey: #475b63;
 }
 
 body {
-  background-color: $charcoalblack;
-  
+  background-image: url("../assets/background.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
+
+//************ HERO ************
+
+.hero {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+.hero-subtitle {
+  font-size: 4rem;
+  // color: $offwhite;
+}
+
+
+.social-media ul {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media li {
+  margin: 0 20px;
+}
+
+.social-media i {
+  font-size: 5rem;
+  transition: 1s;
+  opacity: .3;
+}
+
+.social-media i:hover {
+  opacity: 1;
+} 
+
+
+
+
+// ******************
+
+#about {
+  text-align: center;
+  margin: 300px 0 450px 0;
+}
+
+// ******************
+
+#interests {
+  text-align: center;
+  margin: 300px 0 450px 0;
+}
+
+// ******************
+
+#projects {
+  text-align: center;
+  margin: 300px 0 450px 0;
+}
+
+// ******************
+
+#skills {
+  text-align: center;
+  margin: 300px 0 450px 0;
+}
+
 
 //************ NAVBAR ************
 
@@ -26,102 +118,67 @@ body {
 }
 
 
-
-//************ HERO ************
-
-.hero-container {
-  display: flex;
-  justify-content: space-evenly;
-  height: 100vh;
-  width: 100vw;
-}
-
-.hero-text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-h1 {
-  font-size: 7em;
-  color: $whiteblue;
-}
-
-.hero-subtitle {
-  font-size: 4em;
-  color: $offwhite;
-}
-
-
 //************ ABOUT ME ************
 
-.about-container {
+.about {
   height: 100vh;
   width: 100vw;
-  padding: 30px 50px 30px 120px;
-  display: flex;
+  // padding-left: 2rem;
 }
 
-.aboutme-info-container {
-  width: 50%;
-  height: 95%;
-  padding: 2em;
-  border: $offwhite solid 1px;
-  border-radius: 10%;
-  background-color: #475b63;
-  box-shadow: -1em 1.2em 15px rgba(0, 0, 0, 0.372);
+.aboutme-contents {
+  // // height: 95%;
+  // padding: 1rem 8rem;
+  // border: $offwhite solid 1px;
+  // border-radius: 10%;
+  // background-color: #475b63;
+  // box-shadow: -1em 1.2em 15px rgba(0, 0, 0, 0.372);
   
 }
 
 .aboutme-title {
-  font-size: 6em;
-  color: $whiteblue;
+  // font-size: 6em;
+  // color: $whiteblue;
   
 
 }
 
 .aboutme-subtitle {
-  font-size: 1.8em;
-  color: #b2cfcd;
-  padding-bottom: 0.4em;
+  // font-size: 1.8em;
+  // color: #b2cfcd;
+  // padding-bottom: 0.4em;
 }
 
 .aboutme-paragraphs {
+  // padding: 0 0 0 8rem;
   font-size: 1.05em;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: justify;
-  color: $offwhite;
+  // color: $offwhite;
 }
+
+
+
+
+
+//* INTERESTS
 
 .interests {
-  margin-left: 10%;
-  height: 99%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-grow: 1;
+  height: 100vh;
+  width: 100vw;
+  // padding: 1rem 4.5rem;
 }
 
-.interest-one {
-height: 33%;
-border-bottom: 2px $whiteblue solid;
-display: flex;
-justify-content: center;
+.photosizing {
+  height: 305px;
+  width: 348px;
+  border-radius: 10%;
 }
 
-.interest-two {
-  height: 33%;
-  display: flex;
-  justify-content: center;
-  }
 
-  .interest-three {
-    height: 33%;
-    border-top: 2px $whiteblue solid;
-    display: flex;
-    justify-content: center;
-    }
+.carousel-item {
+  // color: $whiteblue;
+}
 
 
