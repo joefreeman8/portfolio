@@ -175,15 +175,22 @@ ul {
 
 
 
-// ******************
+//************ PROJECTS ************
 
-
-
-// ******************
-
-#projects {
+.projects {
+  height: 150vh;
+  width: 100vw;
   text-align: center;
-  margin: 300px 0 450px 0;
+}
+
+.projects-table {
+  margin-top: 60px;
+}
+
+.project-image {
+  width: 400px;
+  height: 280px;
+  border-radius: 25px;
 }
 
 // ******************
@@ -204,8 +211,8 @@ ul {
 }
 
 .photosizing {
-  height: 305px;
-  width: 348px;
+  height: 200px;
+  width: 230px;
   border-radius: 10%;
 }
 

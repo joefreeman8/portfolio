@@ -3,16 +3,25 @@ import React from 'react'
 // import snowboarder from '../assets/snowboarder3.png'
 // import taz from '../assets/taz.png'
 // import octopus from '../assets/octopus3.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function About() {
 
+  AOS.init({
+    delay: 500,
+    duration: 3000,
+    easing: 'ease',
 
+  })
 
 
   return (
     <>
+    
+    
       <div className="about container row" id="about">
-        <div className="aboutme-contents mt-5 col-9">
+        <div className="aboutme-contents mt-5 col-9" data-aos="flip-up">
           <h2 className="aboutme-title display-1">Hi, I&apos;m Joe!</h2>
           <h4 className="aboutme-subtitle">A recent graduate of a Software Engineering Immersive by General Assembly.</h4>
           <p className="aboutme-paragraphs">I previously worked in corporate finance for a period of 5 years, before deciding to take a career break and going on an adventure around the world. Exploring all the beaches, reefs and mountains I could.</p>

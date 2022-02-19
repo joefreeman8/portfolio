@@ -1,6 +1,6 @@
 
-
 function Hero() {
+
   return (
     <div className="hero container d-flex flex-column justify-content-center align-items-center" id="hero">
       <h1 className="hero-title">Joe Freeman</h1>
