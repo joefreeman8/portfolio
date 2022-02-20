@@ -4,19 +4,21 @@ import 'aos/dist/aos.css'
 function Skills() {
 
   AOS.init({
-    delay: 500,
-    duration: 3000,
+    offset: 700,
+    delay: 150,
+    duration: 800,
     easing: 'ease',
 
   })
+
   return (
     <div className="skills container" id="skills">
-      <div data-aos="flip-up">
-        <h1 className="display-1 mt-5" >Skills and Tools</h1>
-        <hr className="col-12 bg-dark border-5 border-top border-dark mt-5"></hr>
-        <div className="row mt-5">
+      <div>
+        <h1 className="display-1 mt-5" data-aos="zoom-in-left" >Skills and Tools</h1>
+        <hr className="col-12 bg-dark border-5 border-top border-dark mt-5" data-aos="zoom-in-left"></hr>
+        <div className="row mt-5" data-aos="zoom-in-left">
           <ul className="col">
-            <div className="h5 fw-bold mb-3">FRONT END</div>
+            <div className="h4 fw-bold mb-3">FRONT END</div>
             <li className="mb-2">HTML5</li>
             <li className="mb-2">CSS</li>
             <li className="mb-2">JavaScript</li>
@@ -28,7 +30,7 @@ function Skills() {
             <li className="mb-2">MUI</li>
           </ul>
           <ul className="col">
-            <div className="h5 fw-bold mb-3">BACK END</div>
+            <div className="h4 fw-bold mb-3">BACK END</div>
             <li className="mb-2">Node.js</li>
             <li className="mb-2">Mongoose</li>
             <li className="mb-2">Python 3</li>
@@ -37,22 +39,22 @@ function Skills() {
             <li className="mb-2">TablePlus</li>
           </ul>
           <ul className="col">
-            <div className="h5 fw-bold mb-3">PACKAGE</div>
+            <div className="h4 fw-bold mb-3">PACKAGE</div>
             <li className="mb-2">npm</li>
             <li className="mb-2">pip</li>
             <br></br>
-            <div className="h5 fw-bold mb-3">STORAGE</div>
+            <div className="h4 fw-bold mb-3">STORAGE</div>
             <li className="mb-2">Heroku</li>
             <li className="mb-2">Netlify</li>
             <li className="mb-2">Cloudinary</li>
           </ul>
           <ul className="col">
-            <div className="h5 fw-bold mb-3">VERSION CONTROLS</div>
+            <div className="h4 fw-bold mb-3">VERSION CONTROLS</div>
             <li className="mb-2">Git</li>
             <li className="mb-2">GitHub</li>
           </ul>
+          <hr className="bg-dark border-5 border-top border-dark" data-aos="zoom-in-left"></hr>
         </div>
-        <hr className="bg-dark border-5 border-top border-dark"></hr>
       </div>
     </div>
   )

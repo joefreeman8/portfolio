@@ -7,6 +7,29 @@ $grey: #475b63;
 
 $enable-negative-margins: true;
 
+* {
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("../assets/background.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: 'Lora', serif;
+  font-size: 1.05em;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  text-align: justify;
+  font-weight: 550;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+
 .mt-n70 {margin-top: -7rem !important;}
 .mt-n65 {margin-top: -6.5rem !important;}
 .mt-n60 {margin-top: -6rem !important;}
@@ -23,18 +46,10 @@ $enable-negative-margins: true;
 .mt-n05 {margin-top: -0.5rem !important;}
 
 
-* {
-  margin:0;
-  box-sizing: border-box;
-}
 
-body {
-  background-image: url("../assets/background.png");
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
 
-//************ NAVBAR ************
+
+//************************** NAVBAR **************************
 
 .navbar {
   background-color: $grey;
@@ -46,7 +61,7 @@ body {
 
 
 
-//************ HERO ************
+//************************** HERO **************************
 
 .hero {
   text-align: center;
@@ -67,31 +82,23 @@ h1 {
 
 
 
-//************ ABOUT ME ************
+//************************** ABOUT ME **************************
 
 .about {
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
-  // padding-left: 2rem;
 }
 
-.aboutme-contents {
-  // padding: 1rem 8rem;
-  // border: $offwhite solid 1px;
-  // border-radius: 10%;
-  // background-color: #475b63;
-  // box-shadow: -1em 1.2em 15px rgba(0, 0, 0, 0.372);
-}
 
 .aboutme-title {
-  // font-size: 6em;
+  font-size: 6em;
   // color: $whiteblue;
 }
 
 .aboutme-subtitle {
-  // font-size: 1.8em;
+  font-size: 1.8em;
   // color: #b2cfcd;
   // padding-bottom: 0.4em;
 }
@@ -100,9 +107,9 @@ h1 {
   // padding: 0 0 0 8rem;
   font-size: 1.05em;
   line-height: 1.6;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
   text-align: justify;
-  font-weight: 500;
+  font-weight: 550;
   // color: $offwhite;
 }
 
@@ -124,7 +131,7 @@ h1 {
 }
 
 .contact-icon svg {
-  background-color: rgb(227, 188, 33);
+  background-color: rgb(104, 165, 230);
   border-radius: 20%;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -148,7 +155,7 @@ h1 {
   border-radius: 20%;
 } 
 
-//************ SKILLS ************
+//************************** SKILLS **************************
 
 .skills {
   height: 100vh;
@@ -156,52 +163,79 @@ h1 {
   text-align: center;
 }
 
-// .skills-bg {
-//   background-color: rgba(255, 255, 255, 0.742);
-// }
-
 ul {
   list-style: none;
 }
 
-// ul :hover {
-//   transition: 0.3s;
-//   color: blueviolet;
-//   font-weight: 900;
-//   transform: scale(1.8);
-//   -webkit-transform: scale(1.8);
-//   -moz-transform: scale(1.8);
-// }
 
-
-
-//************ PROJECTS ************
+//************************** PROJECTS **************************
 
 .projects {
-  height: 150vh;
+  height: 120vh;
   width: 100vw;
   text-align: center;
 }
 
-.projects-table {
-  margin-top: 60px;
+.readme-icon {
+  opacity: 0.75;
 }
 
-.project-image {
-  width: 400px;
-  height: 280px;
+.readme-icon:hover {
+  opacity: 1;
+  transition: 0.4s linear;
+}
+//************************** CAROUSEL **************************
+
+.slideShow {
+  margin: 3em;
+  height: auto;
+}
+
+.slider-image{
+  max-height: 70vh;
+  max-width: 100%;
   border-radius: 25px;
 }
 
-// ******************
+.right-arrow{
+  font-size: 3em;
+  color: #000;
+  z-index: 5;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow{
+  font-size: 3em;
+  color: #000;
+  z-index: 5;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide-active {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  transition-duration: 1s;
+  max-width: 80vw;
+
+}
+
+.change-slide {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 
 
-
-
-
-
-//* INTERESTS
+//************************** INTERESTS **************************
 
 .interests {
   height: 100vh;
@@ -216,7 +250,28 @@ ul {
   border-radius: 10%;
 }
 
+.interest-pic {
+  border-radius: 20%;
+  // filter: grayscale(100%);
+  // -webkit-filter: grayscale(100%);
+  // -moz-filter: grayscale(100%);
+  transition: 0.4s;
+  opacity: 0.4
+}
 
-.carousel-item {
-  // color: $whiteblue;
+
+.interest-pic :hover {
+  border-radius: 20%;
+  transition: 0.4s linear ;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  opacity: 1;
+}
+
+.photosizing :hover {
+  opacity: 1;
 }

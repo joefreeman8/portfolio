@@ -15,14 +15,12 @@ function App() {
       <Nav />
       <div className="container-lg">
         <div className="row">
-          <div className="col-11">
-            <Hero />
-            <About />
-            <Skills />
-            <Projects />
-            <Interests />
-            <Contact />
-          </div>
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Interests />
+          <Contact />
         </div>
       </div>
 
