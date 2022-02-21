@@ -41,7 +41,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="col-3">
+      <div className="col-3" data-aos="zoom-in-right">
         <img className="col-12 picture-joe" src="https://i.imgur.com/3DGre8r.jpg?1" alt="joe and taz" />
         {/* <img className="col-12" src="https://i.imgur.com/JWVnfPS.jpg?1" alt="joe and taz" /> */}
       </div>
