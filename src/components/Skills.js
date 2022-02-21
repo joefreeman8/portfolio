@@ -5,18 +5,17 @@ function Skills() {
 
   AOS.init({
     offset: 700,
-    delay: 150,
-    duration: 800,
-    easing: 'ease',
+    duration: 500,
+    easing: 'linear',
 
   })
 
   return (
-    <div className="skills container" id="skills">
-      <div>
-        <h1 className="display-1 mt-5" data-aos="zoom-in-left" >Skills and Tools</h1>
-        <hr className="col-12 bg-dark border-5 border-top border-dark mt-5" data-aos="zoom-in-left"></hr>
-        <div className="row mt-5" data-aos="zoom-in-left">
+    <section className="skills container"  id="skills">
+      <div data-aos="zoom-in-left">
+        <h1 className="display-1 mt-5 pt-5" >Skills and Tools</h1>
+        <hr className="col-12 bg-dark border-5 border-top border-dark mt-5"></hr>
+        <div className="row mt-5">
           <ul className="col">
             <div className="h4 fw-bold mb-3">FRONT END</div>
             <li className="mb-2">HTML5</li>
@@ -53,10 +52,10 @@ function Skills() {
             <li className="mb-2">Git</li>
             <li className="mb-2">GitHub</li>
           </ul>
-          <hr className="bg-dark border-5 border-top border-dark" data-aos="zoom-in-left"></hr>
+          <hr className="bg-dark border-5 border-top border-dark"></hr>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
