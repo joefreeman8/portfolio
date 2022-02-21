@@ -22,12 +22,6 @@ function About() {
           <p className="aboutme-paragraphs">Then came the pandemic, everybody&apos;s lives changed and the world stopped. This offered me the rare chance to stop and take the time to try something new.</p>
           <p className="aboutme-paragraphs">Having always had a natural interest in web development, I finally had the perfect opportunity to test the waters. It started with Codecademy, teaching myself HTML, CSS and some JavaScript, and it then led me to enrolling on a 12 week bootcamp with General Assembly.</p>
           <p className="aboutme-paragraphs">Now that I have graduated from the Software Engineering course, I am eager to build on my new skills, grow as a developer and establish myself in an exciting new industry.</p>
-          {/* <div className="col">
-            <img className="col-6" src="https://i.imgur.com/3DGre8r.jpg?1" alt="joe and taz" />
-          </div> */}
-          {/* <div className="col">
-            <img className="col-6" src="https://i.imgur.com/JWVnfPS.jpg?1" alt="joe and taz" />
-          </div> */}
           <div className="social-media">
             <div className="about-icon">
               <a href="https://github.com/joefreeman8" className="icon-link" target="_blank" rel="noreferrer">
