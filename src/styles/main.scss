@@ -1,7 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 
-$charcoalblack: #28333a;
-$blue: rgb(104, 165, 230); 
 
 $enable-negative-margins: true;
 
@@ -32,7 +30,10 @@ a {
   font-family: 'Oswald', sans-serif;
 }
 
-.mt-n15 {margin-top: -1.5rem !important;}
+.mt-n55 {margin-top: -5.5rem !important;}
+.mt-n45 {margin-top: -4.5rem !important;}
+.mt-n35 {margin-top: -3.5rem !important;}
+.mt-n25 {margin-top: -2.5rem !important;}
 .mt-n10 {margin-top: -1rem !important;}
 .mt-n05 {margin-top: -0.5rem !important;}
 
@@ -111,21 +112,21 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  // align-items: center;
 }
 
 .about-icon {
-  margin: 25px;
+  margin: 0 50px;
+  margin-top: -90px;
 }
 
 .about-icon i {
   transition: 0.4s;
-  opacity: .3;
+  opacity: .65;
   border-radius: 20%;
 }
 
 .about-icon svg {
-  background-color: $blue;
   border-radius: 20%;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -175,8 +176,8 @@ ul {
 }
 
 .readme-icon {
-  opacity: 0.5;
-  background-color: rgb(224, 230, 104);
+  opacity: 0.65;
+  // background-color: rgb(224, 230, 104);
   border-radius: 20%;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -213,7 +214,7 @@ ul {
 
 .right-arrow{
   font-size: 3em;
-  color: rgba(0, 0, 0, 0.742);
+  color: rgba(0, 0, 0, 0.65);
   z-index: 5;
   cursor: pointer;
   user-select: none;
@@ -234,7 +235,7 @@ ul {
 
 .left-arrow{
   font-size: 3em;
-  color: rgba(0, 0, 0, 0.742);
+  color: rgba(0, 0, 0, 0.65);
   z-index: 5;
   cursor: pointer;
   user-select: none;
@@ -315,7 +316,7 @@ input[type="radio"]:checked::before {
 .interests-img {
   border-radius: 20%;
   transition: 0.4s;
-  opacity: 0.4
+  opacity: 0.5
 }
 
 
