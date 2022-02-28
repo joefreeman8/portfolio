@@ -71,10 +71,16 @@ a {
 
 h1 {
   font-size: 7rem;
+  @media only screen and (max-width: 1149px) {
+    font-size: 6rem;
+  }
 }
 
 .hero-subtitle {
   font-size: 4rem;
+  @media only screen and (max-width: 1149px) {
+    font-size: 3rem;
+  }
 }
 
 
@@ -86,38 +92,52 @@ h1 {
 .about {
   height: 100vh;
   width: 100vw;
-  display: flex;
-  justify-content: center;
+  margin: auto;
 }
 
 
 .aboutme-title {
-  font-size: 6em;
-
+  text-align: center;
 }
 
 .aboutme-subtitle {
-  font-size: 1.8em;
+  font-size: 1.8rem;
+  text-align: center;
+  @media only screen and (max-width: 999px) {
+    font-size: 1.6rem;
+  }
 }
 
 .aboutme-paragraphs {
-  font-size: 1.05em;
+  font-size: 1.05rem;
   line-height: 1.6;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05rem;
   text-align: justify;
   font-weight: 550;
+  @media only screen and (max-width: 999px) {
+    font-size: 1rem;
+  }
+  @media only screen and (max-width: 599px) {
+    font-size: 0.8rem;
+  }
 }
 
 .social-media {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  // align-items: center;
+  margin-top: -40px;
 }
 
 .about-icon {
   margin: 0 50px;
   margin-top: -90px;
+  @media only screen and (max-width: 1149px) {
+    margin-top: -70px;
+  }
+  @media only screen and (max-width: 799px) {
+    margin: 50px 20px; 
+  }
 }
 
 .about-icon i {
@@ -173,6 +193,10 @@ ul {
   height: 120vh;
   width: 100vw;
   text-align: center;
+
+  @media only screen and (max-width: 799px) {
+    height: 100vh;
+}
 }
 
 .project-name {
@@ -323,6 +347,10 @@ input[type="radio"]:checked::before {
   height: 130vh;
   width: 100vw;
   text-align: center;
+  
+  @media only screen and (max-width: 799px) {
+    height: 100vh;
+}
 }
 
 .interests-img {
@@ -358,11 +386,21 @@ input[type="radio"]:checked::before {
   text-align: center;
 }
 
+  .contact-media {
+  @media only screen and (max-width: 799px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+}
+
 
 .contact-icon {
   display: flex;
   text-align: center;
   align-items: center;
+  
   }
 
 .contact-details {
@@ -382,4 +420,7 @@ input[type="radio"]:checked::before {
 //************************** FOOTER **************************
 .footer {
   text-align: center;
+  @media only screen and (max-width: 799px) {
+  margin-top: 20px;
+}
 }

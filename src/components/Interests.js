@@ -12,7 +12,7 @@ function Interests() {
 
 
   return (
-    <section className="interests" id="interests">
+    <section className="interests container" id="interests">
       <div data-aos="zoom-in-left">
         <h1 className="display-1">My Interests</h1>
         <hr className="bg-dark border-5 border-top border-dark"></hr>

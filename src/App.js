@@ -14,17 +14,17 @@ function App() {
   return (
     <>
       <Nav />
-      <div className="container-lg">
-        <div className="row">
-          <Hero />
-          <About />
-          <Skills />
-          <Projects />
-          <Interests />
-          <Contact />
-          <Footer />
-        </div>
-      </div>
+      {/* <div className="container-lg">
+        <div className="row"> */}
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Interests />
+      <Contact />
+      <Footer />
+      {/* </div>
+      </div> */}
 
     </>
   )
