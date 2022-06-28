@@ -17,12 +17,13 @@ function About() {
           <h2 className="aboutme-title display-1">Hi, I&apos;m Joe!
             {/* <img className="col-4" src="https://i.imgur.com/3DGre8r.jpg?1" alt="joe and taz" /> */}
           </h2>
-          <h4 className="aboutme-subtitle fw-bold text-uppercase">A recent graduate of a Software Engineering Immersive by General Assembly.</h4>
+          <h4 className="aboutme-subtitle fw-bold text-uppercase">A graduate and teaching assistant of a Software Engineering Immersive by General Assembly.</h4>
           <div>
-            <p className="aboutme-paragraphs mt-3">Having previously worked in corporate finance for a period of 5 years. I took a career break and hadthe adventure of a lifetime around the world, exploring all the beaches, reefs and mountains I could.</p>
-            <p className="aboutme-paragraphs">Then came the pandemic, everybody&apos;s lives changed and the world stopped. This offered me the rare chance to stop and take the time to try something new.</p>
-            <p className="aboutme-paragraphs">Having always had a natural interest in web development, I finally had the perfect opportunity to test the waters. It started with Codecademy, teaching myself HTML, CSS and some JavaScript, and it then led me to enrolling on a 12 week bootcamp with General Assembly.</p>
-            <p className="aboutme-paragraphs">Now that I have graduated from the Software Engineering course, I am eager to build on my new skills, grow as a developer and establish myself in an exciting new industry.</p>
+            <p className="aboutme-paragraphs mt-3">Having previously worked in corporate finance for 5 years, I decided on a career break. Taking the adventure of a lifetime around the world while exploring as many cool spots as I could manage.</p>
+            <p className="aboutme-paragraphs">Along came the pandemic and the world stopped, so I seized the opportunity to try something new!</p>
+            <p className="aboutme-paragraphs">Having always had a natural interest in web development, I finally had the perfect opportunity to test the waters. It started with Codecademy, teaching myself some basics, then enrolled on a 12 week bootcamp with General Assembly.</p>
+            <p className="aboutme-paragraphs">Since completing the bootcamp General Assembly offered me the opportunity to become a Teaching Assistant, which has enabled me to grow further while I aided students in debugging their code.</p>
+            <p className="aboutme-paragraphs">I am eager to build on my new skills, and looking forward to establishing myself in this exciting new industry as a Web Developer.</p>
           </div>
           <div className="social-media">
             <div className="about-icon">
@@ -44,10 +45,6 @@ function About() {
         </div>
 
       </div>
-      {/* <div className="col-3" data-aos="zoom-in-left">
-        <img className="col-12 picture-joe" src="https://i.imgur.com/3DGre8r.jpg?1" alt="joe and taz" />
-        {/* <img className="col-12" src="https://i.imgur.com/JWVnfPS.jpg?1" alt="joe and taz" /> */}
-      {/* </div> */}
     </section>
   )
 }

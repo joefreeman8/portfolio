@@ -14,8 +14,6 @@ function App() {
   return (
     <>
       <Nav />
-      {/* <div className="container-lg">
-        <div className="row"> */}
       <Hero />
       <About />
       <Skills />
@@ -23,8 +21,7 @@ function App() {
       <Interests />
       <Contact />
       <Footer />
-      {/* </div>
-      </div> */}
+
 
     </>
   )

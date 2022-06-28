@@ -21,7 +21,7 @@ body {
   font-weight: 550;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .joeFreeman {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -40,21 +40,31 @@ a {
 
 //************************** NAVBAR **************************
 
+nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.joeFreeman {
+  padding: 1.5em;
+  font-size: 2rem;
+}
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1.5em;
   font-size: 2rem;
 }
 
 .nav-item {
-  opacity: 0.8;
+  margin-left: 1.5rem;
 }
 
 .nav-item:hover {
   opacity: 1;
   color: black;
-  transition: 0.4s;
+  transition: 0.2s;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -112,7 +122,7 @@ h1 {
   font-size: 1.05rem;
   line-height: 1.6;
   letter-spacing: 0.05rem;
-  text-align: justify;
+  text-align: center;
   font-weight: 550;
   @media only screen and (max-width: 999px) {
     font-size: 1rem;
@@ -130,8 +140,8 @@ h1 {
 }
 
 .about-icon {
-  margin: 0 50px;
-  margin-top: -90px;
+  margin: 0 30px;
+  margin-top: -80px;
   @media only screen and (max-width: 1149px) {
     margin-top: -70px;
   }
@@ -155,7 +165,7 @@ h1 {
 
 .about-icon svg:hover {
   border-radius: 20%;
-  transition: 0.4s linear ;
+  transition: 0.2s linear ;
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);

@@ -18,8 +18,8 @@ function Interests() {
         <hr className="bg-dark border-5 border-top border-dark"></hr>
         <div>
           <p>When I&apos;m not at my computer searching the MDN archives, I enjoy following football gossip, listening to music and spending time with my dog, Taz.</p>
-          <p>I also love to travel, snowboard, scuba dive & hike. The three destinations next on my list are a snowboarding trip to Japan, some diving in the Galapagos and a return trip to Mexico for those prized tacos.</p>
-          <p>Below is a mini gallery of some of my favouite photos from my travels, a couple of pictures of Taz, the book I am currently reading and of course, my favourite beer!</p>
+          <p>With a love for travel, the three destinations I fancy most are a snowboarding trip to Japan, some diving in the Galapagos and a return trip to Mexico for those prized tacos.</p>
+          <p>Below is a mini gallery of some of my favourite photos, the book I am currently reading and of course, my favourite beer!</p>
         </div>
         <div className="mt-5 container container-fluid">
           <div className="row gy-2 gx-2">
