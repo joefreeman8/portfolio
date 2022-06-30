@@ -11,7 +11,6 @@ $enable-negative-margins: true;
 
 
 body {
-  // background-image: url("../assets/background.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-color: rgb(46, 46, 46);
@@ -82,7 +81,7 @@ nav {
 }
 
 .nav-item:hover {
-  transition: 0.5s ease;
+  transition: 0.3s ease;
   transform: scale(1.1);
   color: #81C784;
   -webkit-transform: scale(1.1);
@@ -124,9 +123,13 @@ h1 {
   margin: auto;
 }
 
-
+.joe-thumbnail {
+  border-radius: 50%;
+  height: 100px;
+}
 .aboutme-title {
   text-align: center;
+  color:#81C784;
 }
 
 .aboutme-subtitle {
@@ -155,7 +158,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .about-icon {
@@ -169,34 +172,19 @@ h1 {
   }
 }
 
-.about-icon i {
-  transition: 0.4s;
-  opacity: .75;
-  border-radius: 20%;
-}
 
 .about-icon svg {
   border-radius: 20%;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
 }
 
 .about-icon svg:hover {
-  border-radius: 20%;
-  transition: 0.2s linear ;
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  transform: scale(1.25);
-  -webkit-transform: scale(1.25);
-  -moz-transform: scale(1.25);
-  opacity: 1;
-} 
 
-.about-icon i:hover {
-  opacity: 1;
-  border-radius: 20%;
+  border-radius: 25%;
+  transition: 0.3s linear;
+  background-color: #81C784;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
 } 
 
 .picture-joe {

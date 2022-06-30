@@ -142,7 +142,7 @@ function Skills() {
         <h1 className="display-1 mt-5 pt-5" >Tech and Tools</h1>
         <hr className="col-12 bg-dark border-5 border-top border-dark mt-5"></hr>
         <div className="row mt-5">
-          <div className="h4 fw-bold mb-3">The tech I have experience in using so far</div>
+          <div className="h4 fw-bold mb-3">Tech I have experience in using so far:</div>
           <div className="frontend-tech">
             {tags.map((tag, index) => (
               <div className="tech" key={index}>
