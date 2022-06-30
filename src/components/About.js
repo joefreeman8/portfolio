@@ -14,10 +14,10 @@ function About() {
     <section className="about container-fluid row" id="about">
       <div className="d-flex justify-content-center" data-aos="zoom-in-right">
         <div className="aboutme-contents col-8"  >
-          <h2 className="aboutme-title display-1">Hi, I&apos;m Joe!
+          <h2 className="aboutme-title display-1">Hey, I&apos;m Joe!
             {/* <img className="col-4" src="https://i.imgur.com/3DGre8r.jpg?1" alt="joe and taz" /> */}
           </h2>
-          <h4 className="aboutme-subtitle fw-bold text-uppercase">A graduate and teaching assistant of a Software Engineering Immersive by General Assembly.</h4>
+          <h4 className="aboutme-subtitle text-uppercase">A graduate and teaching assistant of a Software Engineering Immersive by General Assembly.</h4>
           <div>
             <p className="aboutme-paragraphs mt-3">Having previously worked in corporate finance for 5 years, I decided on a career break. Taking the adventure of a lifetime around the world while exploring as many cool spots as I could manage.</p>
             <p className="aboutme-paragraphs">Along came the pandemic and the world stopped, so I seized the opportunity to try something new!</p>
