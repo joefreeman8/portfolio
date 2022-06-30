@@ -3,7 +3,7 @@
 function Contact() {
   return (
     <section className="container contact mt-5" id="contact">
-      <h1 className="display-1">Contact</h1>
+      <h1 className="display-1">Get In Touch</h1>
       <div className="contact-media row mt-5">
         <div className="contact-icon col-4 justify-content-center">
           <a href="https://github.com/joefreeman8" className="text-decoration-none contact-details" target="_blank" rel="noreferrer">
