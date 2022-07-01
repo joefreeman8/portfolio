@@ -210,6 +210,10 @@ ul {
   list-style: none;
 }
 
+.skills-icon-container {
+  margin: 0 6rem;
+}
+
 .frontend-tech {
   display: flex;
   justify-content: space-evenly;
@@ -376,6 +380,7 @@ input[type="radio"]:checked::before {
 //************************** INTERESTS **************************
 
 .interests {
+  margin-top: 6rem;
   height: 130vh;
   width: 100vw;
   text-align: center;
@@ -386,13 +391,23 @@ input[type="radio"]:checked::before {
 }
 
 .interests-content {
+  margin: 1rem 6rem;
   font-size: 1.05rem;
   line-height: 1.6;
   letter-spacing: 0.04rem;
+  
 }
+
+.interest-image-gallery{
+  display: flex;
+  justify-content: center;
+}
+
 .interests-img {
   border-radius: 20%;
   transition: 0.4s;
+  height: 250px;
+  width: 250px;
   // opacity: 0.8;
   filter: grayscale(40%);
   -webkit-filter: grayscale(40%);
