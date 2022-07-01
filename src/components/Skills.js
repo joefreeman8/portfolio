@@ -139,18 +139,20 @@ function Skills() {
   return (
     <section className="skills container" id="skills">
       <div data-aos="zoom-in-left">
-        <h1 className="display-1 mt-5 pt-5" >Tech and Tools</h1>
-        <hr className="col-12 bg-dark border-5 border-top border-dark mt-5"></hr>
-        <div className="row mt-5">
-          <div className="h4 fw-bold mb-3">Tech I have experience in using so far:</div>
-          <div className="frontend-tech">
-            {tags.map((tag, index) => (
-              <div className="tech" key={index}>
-                <img src={tag.imageSrc} alt={tag.name} height="70" />
-                <h4>{tag.name}</h4>
-              </div>
-            )
-            )}
+        <div className="skills-content">
+          <h1 className="display-1 mt-5 pt-5" >Tech and Tools</h1>
+          <hr className="col-12 bg-dark border-5 border-top border-dark mt-5"></hr>
+          <div className="row mt-5">
+            <div className="h4 fw-bold mb-3">Tech I have experience in using so far:</div>
+            <div className="frontend-tech">
+              {tags.map((tag, index) => (
+                <div className="tech" key={index}>
+                  <img src={tag.imageSrc} alt={tag.name} height="70" />
+                  <h4>{tag.name}</h4>
+                </div>
+              )
+              )}
+            </div>
           </div>
         </div>
       </div>

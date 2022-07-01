@@ -14,8 +14,8 @@ function About() {
     <section className="about container-fluid row" id="about">
       <div className="d-flex justify-content-center" data-aos="zoom-in-right">
         <div className="aboutme-contents col-8"  >
-          <h2 className="aboutme-title display-1">Hey, I&apos;m Joe! <span><img className="joe-thumbnail" src="https://i.imgur.com/PpGpMZK.png?1"/></span>
-            {/* <img className="col-4" src="https://i.imgur.com/3DGre8r.jpg?1" alt="joe and taz" /> */}
+          <h2 className="aboutme-title display-1">Hey, I&apos;m Joe!
+            <span><img className="joe-thumbnail" src="https://i.imgur.com/PpGpMZK.png?1"/></span>
           </h2>
           <h4 className="aboutme-subtitle text-uppercase">A graduate and teaching assistant of a Software Engineering Immersive by General Assembly.</h4>
           <div>
