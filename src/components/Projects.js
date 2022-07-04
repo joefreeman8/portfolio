@@ -7,8 +7,7 @@ import { HiArrowCircleRight, HiArrowCircleLeft } from 'react-icons/hi'
 function Projects() {
 
   AOS.init({
-    offset: 700,
-    duration: 500,
+    duration: 50,
     easing: 'linear',
     once: true,
   })

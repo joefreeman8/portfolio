@@ -1,22 +1,26 @@
 import React from 'react'
+import { Navbar, Container, Nav } from 'react-bootstrap'
 
+function Navigation() {
 
-function Nav() {
   return (
-    <nav className="sticky-top">
-      <div className="nav navbar navbar-expand{-sm|-md|-lg|-xl|-xxl} text-decoration-none">
-        <a className="joe-freeman" href="#hero">JF</a>
-      </div>
-      <div className="nav navbar navbar-expand{-sm|-md|-lg|-xl|-xxl} text-decoration-none">
 
-        <a className="nav-item" href="#about">About</a>
-        <a className="nav-item" href="#skills">Skills</a>
-        <a className="nav-item" href="#projects">Projects</a>
-        <a className="nav-item" href="#interests">Interests</a>
-        <a className="nav-item" href="#contact">Contact</a>
-      </div>
-    </nav>
+    <Navbar className="nav" variant="dark" expand="lg" fixed="top">
+      <Container>
+        <Navbar.Brand className="joe-freeman" href="#hero">JF</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse className="navbar" id="basic-navbar-nav">
+          <Nav>
+            <Nav.Link className="nav-item" href="#about">About</Nav.Link>
+            <Nav.Link className="nav-item" href="#skills">Skills</Nav.Link>
+            <Nav.Link className="nav-item" href="#projects">Projects</Nav.Link>
+            <Nav.Link className="nav-item"  href="#interests">Interests</Nav.Link>
+            <Nav.Link className="nav-item" href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
 
-export default Nav
+export default Navigation

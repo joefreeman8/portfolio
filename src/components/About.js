@@ -4,8 +4,7 @@ import 'aos/dist/aos.css'
 function About() {
 
   AOS.init({
-    offset: 200,
-    duration: 200,
+    duration: 50,
     easing: 'linear',
     once: true,
   })
