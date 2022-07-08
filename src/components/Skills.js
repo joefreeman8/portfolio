@@ -146,7 +146,7 @@ function Skills() {
             <div className="frontend-tech">
               {tags.map((tag, index) => (
                 <div className="tech" key={index}>
-                  <img src={tag.imageSrc} alt={tag.name} height="70" />
+                  <img className="tech-icons" src={tag.imageSrc} alt={tag.name} />
                   <h4>{tag.name}</h4>
                 </div>
               )
