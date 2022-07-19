@@ -333,13 +333,13 @@ h1 {
 
 //************************** CAROUSEL **************************
 
-.slideShow {
+.slide-show {
   margin: 3em;
   height: auto;
 }
 
 .slider-image{
-  max-height: 70vh;
+  max-height: 60vh;
   max-width: 100%;
   border-radius: 25px;
 }
@@ -539,12 +539,18 @@ input[type="radio"]:checked::before {
 .contact-icon {
   display: flex;
   justify-content: center;
+
+  svg:hover {
+    background-color: #81C784;
+    border-radius: 21%;
+  }
+
   @media only screen and (max-width: 700px) {
     display: flex;
     flex-direction: column;
   }
+}
 
-  }
 
 .contact-details {
   opacity: 0.80;
@@ -560,10 +566,7 @@ input[type="radio"]:checked::before {
   -moz-transform: scale(1.1);
 }
 
-.contact-icon-hover:hover {
-  background-color: #81C784;
-  border-radius: 22%;
-}
+
 
 
 //************************** FOOTER **************************

@@ -1,5 +1,13 @@
 export const carouselData = [
   {
+    name: 'To-do app',
+    imageUrl: 'https://i.imgur.com/TaGLqgjh.png',
+    url: 'https://joe-f-todo-app.netlify.app/',
+    readMeUrl: 'https://github.com/joefreeman8/to-do-app#readme',
+    alt: 'to-do app',
+    info: 'A fun React-app to organise your tasks.',
+  },
+  {
     name: 'PawHub',
     imageUrl: 'https://i.imgur.com/JRPDOPjh.png',
     url: 'https://pawhub.netlify.app/',

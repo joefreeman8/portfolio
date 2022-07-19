@@ -29,7 +29,7 @@ function Projects() {
     <section className="container projects">
       <div data-aos="zoom-in-right">
         <h1 className="display-1" id="projects">My Projects</h1>
-        <div className="slideShow">
+        <div className="slide-show">
           <div className="d-flex flex-row justify-content-center align-items-center ">
             <a className="project-name-anchor"href={carouselData[currentSlide].url} target='_blank' rel="noreferrer">
               <h4 className="project-name display-3 me-3">{carouselData[currentSlide].name}</h4>
@@ -58,6 +58,7 @@ function Projects() {
             <input type="radio" name="slide" value="1" checked={currentSlide === 1} onClick={moveSlide}></input>
             <input type="radio" name="slide" value="2" checked={currentSlide === 2} onClick={moveSlide}></input>
             <input type="radio" name="slide" value="3" checked={currentSlide === 3} onClick={moveSlide}></input>
+            <input type="radio" name="slide" value="4" checked={currentSlide === 4} onClick={moveSlide}></input>
             <HiArrowCircleRight className="right-arrow" onClick={nextSlide} />
           </div>
         </div>
